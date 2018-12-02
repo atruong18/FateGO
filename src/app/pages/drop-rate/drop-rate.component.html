@@ -1,0 +1,37 @@
+<div class="card">
+  <table class="table table-sm">
+    <thead class="thead-dark">
+      <tr>
+        <th>Item</th>
+        <th>Area</th>
+        <th>Quest</th>
+        <th>AP Cost</th>
+        <th>AP per Drop</th>
+        <th>Drop Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let drop of DROPS">
+      <tr>
+        <td><img class="dropmat-icon" [src]="drop.iconUrl"></td>
+        <td><div *ngFor="let detail of drop.drops">{{detail.area}}</div></td>
+        <td><div *ngFor="let detail of drop.drops">{{detail.quest}}</div></td>
+        <td><div *ngFor="let detail of drop.drops">{{detail.ap | number}}</div></td>
+        <td><div *ngFor="let detail of drop.drops">{{detail.apPerDrop | number : '1.1-2'}}</div></td>
+        <td><div *ngFor="let detail of drop.drops">{{detail.dropRate | number : '1.1-2'}} %</div></td>
+      </tr>
+      <tr>
+        <td colspan="6">
+          <accordion>
+            <accordion-group heading="Servants" panelClass="servant-panel">
+              <div class="text-center">
+                <img [src]="IMGPATH + drop.servantFilename">
+              </div>
+            </accordion-group>
+          </accordion>
+        </td>
+      </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

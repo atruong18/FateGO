@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/main.theme';
+@import 'assets/scss/core';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.servant-panel .card-header {
+  padding-bottom: 0;
+  padding-top: 0;
+  cursor: pointer;
+}
+.servant-panel .card-body {
+  background-color: #e6e6e6; 
+}

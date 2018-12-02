@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" [routerLink]="['']">FGO NA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['droprates']">Drop Rates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">EXP Calculator</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Other</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          External Links
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" target="_blank" href="http://fate-go.cirnopedia.org/index.php">Cirnopedia</a>
+          <a class="dropdown-item" target="_blank" href="http://fategrandorder.wikia.com/wiki/Fate/Grand_Order_Wikia">FGO Wikia</a>
+          <a class="dropdown-item" target="_blank" href="https://grandorder.wiki/Main_Page">Grand Order Wiki</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" target="_blank" href="#">Grand Order Drop Rates</a>
+          <a class="dropdown-item" target="_blank" href="#">Event Resources</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" target="_blank" href="http://fgosimulator.webcrow.jp/Material/">FGO Material Simulator</a>
+        </div>
+      </li>
+    </ul>
+    <span class="navbar-text small"> (Last Updated: 12/02/18) </span>
+  </div>
+</nav>
