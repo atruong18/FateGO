@@ -3,11 +3,7 @@ import { Item } from 'src/app/models/drop';
 import { DROPS } from 'src/app/data/drop';
 import { LocalStorageService } from 'src/app/services/local-storage.service';
 import { faThumbtack } from '@fortawesome/free-solid-svg-icons';
-
-interface TableItem extends Item {
-  collapsed?: boolean;
-  pinned?: boolean;
-}
+import { ActionService, State } from 'src/app/services/store/action.service';
 
 @Component({
   selector: 'app-drop',
@@ -16,67 +12,42 @@ interface TableItem extends Item {
 })
 export class DropComponent implements OnInit {
   public faThumbtack = faThumbtack;
+  public DROPS: Item[] = DROPS;
+  public pinnedItemIds: number[] = [];
+  public areaFilters: string[] = ['Salem'];
 
-  public items: TableItem[] = DROPS.map<TableItem>(i => {
-    const tItem: TableItem = i;
-    tItem.collapsed = true;
-    tItem.pinned = false;
-    return tItem;
-  });
-
-  public marker1 = 'Salem';
-
-  constructor(private storage: LocalStorageService) { }
+  constructor(private storage: LocalStorageService, private action: ActionService) { }
 
   ngOnInit() {
     this.refreshPins();
-  }
-
-  private refreshPins(): void {
-    const pinnedItems = this.storage.dropPinItemNames.value;
-    if (pinnedItems === undefined) {
-      this.storage.dropPinItemNames.value = [];
-    } else {
-      this.items.forEach(item => {
-        if (pinnedItems.findIndex(p => p === item.name) > 0) {
-          item.pinned = true;
-        }
-      });
-    }
-    this.sortItems();
+    this.action.get<number>(State.ItemDrop_SelectPin).subscribe(v => {
+      this.updatePin(v);
+      this.refreshPins();
+    });
   }
 
   public clearAllPins(): void {
-    this.storage.dropPinItemNames.value = [];
+    this.storage.dropPinItemIds.value = [];
     this.refreshPins();
   }
 
-  public updatePin(item: TableItem): void {
-    item.pinned = !item.pinned;
-    let pinnedItems = this.storage.dropPinItemNames.value;
-    if (item.pinned) {
-      pinnedItems.push(item.name);
-      this.storage.dropPinItemNames.value = pinnedItems;
-    } else {
-      pinnedItems = pinnedItems.filter(v => v !== item.name);
-      this.storage.dropPinItemNames.value = pinnedItems;
+  public updatePin(id: number): void {
+    const storedPins: number[] = this.storage.dropPinItemIds.value;
+    if (storedPins === undefined) {
+      this.storage.dropPinItemIds.value = [id]; // No storage, initialize
+      return;
     }
-    this.sortItems();
+    const filtered = storedPins.filter(v => v !== id);
+    if (filtered.length === storedPins.length) {
+      filtered.push(id); // No changes, add
+      this.storage.dropPinItemIds.value = filtered;
+      return;
+    }
+    this.storage.dropPinItemIds.value = filtered; // Filtered, removed
   }
 
-  public sortItems(): void {
-    this.items.sort((a, b) => {
-      if (a.pinned && b.pinned) {
-        return a.id - b.id;
-      }
-      if (a.pinned) {
-        return -1;
-      }
-      if (b.pinned) {
-        return 1;
-      }
-      return a.id - b.id;
-    })
+  private refreshPins(): void {
+    this.pinnedItemIds = this.storage.dropPinItemIds.value;
   }
 
 }

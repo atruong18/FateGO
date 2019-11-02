@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Item } from '../models/drop';
 
 @Injectable({
   providedIn: 'root'
@@ -8,8 +7,7 @@ export class LocalStorageService {
 
   constructor() { }
 
-  public dropPinItemNames = new LocalStorage<string[]>('pinned_drop_items');
-
+  public dropPinItemIds = new LocalStorage<number[]>('pinned_drop_items');
 }
 
 class LocalStorage<T> {
