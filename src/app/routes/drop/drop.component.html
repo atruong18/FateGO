@@ -1,0 +1,45 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <div class="float-right mb-3">
+                <button (click)="clearAllPins()" class="btn btn-primary btn-sm">Clear Pins</button>
+            </div>
+            <table class="table table-sm">
+                <tbody>
+                    <ng-container *ngFor="let i of items">
+                        <tr class="bg-primary text-light item-header">
+                            <td colspan="5">
+                                <div>
+                                    <header>
+                                        <img [alt]="i.name" [src]="i.imgURL">
+                                        <small class="ml-3">
+                                            <strong>{{i.name}}</strong>
+                                        </small>
+                                    </header>
+                                    <a (click)="updatePin(i)" [ngClass]="i.pinned ? 'text-warning' : 'text-light'" class="p-3">
+                                        <fa-icon [icon]="faThumbtack"></fa-icon>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr *ngFor="let d of i.drops" [ngClass]="d.area === marker1 ? 'marked' : ''" class="item-drop">
+                            <td>{{d.area}}</td>
+                            <td>{{d.quest}}</td>
+                            <td>{{d.ap}}</td>
+                            <td>{{d.apPerDrop}}</td>
+                            <td>{{d.dropRate/100|percent:'1.1-1'}}</td>
+                        </tr>
+                        <tr class="item-servant">
+                            <td class="pb-4" colspan="5">
+                                <button (click)="i.collapsed = !i.collapsed" class="btn btn-block btn-secondary font-weight-bold">Servants List</button>
+                                <div [collapse]="i.collapsed" [isAnimated]="true" class="item-collapse">
+                                    <img [alt]="servants" [src]="i.servantsURL">
+                                </div>
+                            </td>
+                        </tr>
+                    </ng-container>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

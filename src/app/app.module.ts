@@ -1,16 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DropComponent } from './routes/drop/drop.component';
+
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { IconModule } from './icon.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CollapseModule.forRoot(),
+    IconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

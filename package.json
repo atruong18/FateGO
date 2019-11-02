@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "git": "npm run git:build && npm run git:deploy",
     "git:build": "ng build --prod --base-href \"https://atruong18.github.io/FateGO/\"",
-    "git:deploy": "ngh --dir=dist/app-fatego"
+    "git:deploy": "ngh --dir=dist/fgo-drops"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +22,11 @@
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
+    "@fortawesome/angular-fontawesome": "^0.5.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "ngx-bootstrap": "^5.2.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
