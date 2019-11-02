@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="#">FateGO</a>
-    <button aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarColor03" data-toggle="collapse" type="button">
+    <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor03">
+    <div [collapse]="isCollapsed" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Drops</a>
@@ -17,7 +17,7 @@
             </li>
         </ul>
         <form class="form-inline">
-            <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
+            <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search"/>
             <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
