@@ -39,7 +39,7 @@ export class ItemDropTableComponent implements OnInit, OnChanges {
         const tItem: TableItem = i;
         const existingItem: TableItem = this.items.find(v => v.id === i.id);
         tItem.collapsed = existingItem === undefined || existingItem.collapsed;
-        tItem.pinned = this.pinnedItemIds.findIndex(p => p === tItem.id) > -1;
+        tItem.pinned = this.pinnedItemIds.indexOf(tItem.id) > -1;
         return tItem;
       })
       .sort((a, b) => {

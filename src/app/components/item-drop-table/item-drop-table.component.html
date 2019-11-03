@@ -19,15 +19,26 @@
             <tr *ngFor="let d of i.drops" [ngClass]="areaNameFilters.indexOf(d.area) > -1 ? 'marked' : ''" class="item-drop">
                 <td>{{d.area}}</td>
                 <td>{{d.quest}}</td>
-                <td>{{d.ap}}</td>
-                <td>{{d.apPerDrop}}</td>
-                <td>{{d.dropRate/100|percent:'1.1-1'}}</td>
+                <td class="text-right">
+                    <span>{{d.ap}}</span>
+                    <small class="text-muted">
+                        <small>AP</small>
+                    </small>
+
+                </td>
+                <td class="text-right">
+                    <span>{{d.apPerDrop}}</span>
+                    <small class="text-muted">
+                        <small>AP/Drop</small>
+                    </small>
+                </td>
+                <td class="text-right">{{d.dropRate/100|percent:'1.1-1'}}</td>
             </tr>
             <tr class="item-servant">
                 <td class="pb-4" colspan="5">
                     <button (click)="i.collapsed = !i.collapsed" class="btn btn-block btn-secondary font-weight-bold">Servants List</button>
                     <div [collapse]="i.collapsed" [isAnimated]="true" class="item-collapse">
-                        <img [src]="i.servantsURL" alt="servants"/>
+                        <img [src]="i.servantsURL" alt="servants" class="img-fluid"/>
                     </div>
                 </td>
             </tr>

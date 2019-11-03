@@ -47,7 +47,7 @@ export class DropComponent implements OnInit {
   }
 
   private refreshPins(): void {
-    this.pinnedItemIds = this.storage.dropPinItemIds.value;
+    this.pinnedItemIds = this.storage.dropPinItemIds.value || [];
   }
 
 }
