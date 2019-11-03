@@ -1,7 +1,7 @@
 <table class="table table-sm">
     <tbody>
         <ng-container *ngFor="let i of items">
-            <tr class="bg-primary text-light item-header">
+            <tr [id]="idPrefix + i.id" class="bg-primary text-light item-header">
                 <td colspan="5">
                     <div>
                         <header>

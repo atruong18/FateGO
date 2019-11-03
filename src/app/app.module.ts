@@ -9,12 +9,14 @@ import { DropComponent } from './routes/drop/drop.component';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ItemDropTableComponent } from './components/item-drop-table/item-drop-table.component';
+import { ItemAnchorLinksComponent } from './components/item-anchor-links/item-anchor-links.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DropComponent,
     ItemDropTableComponent,
+    ItemAnchorLinksComponent,
   ],
   imports: [
     BrowserModule,

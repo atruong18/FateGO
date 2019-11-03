@@ -27,6 +27,7 @@ export class ItemDropTableComponent implements OnInit, OnChanges {
 
   @Input() pinnedItemIds: number[] = [];
   @Input() areaNameFilters: string[] = [];
+  @Input() idPrefix = 'item-';
 
   constructor(private action: ActionService) { }
 

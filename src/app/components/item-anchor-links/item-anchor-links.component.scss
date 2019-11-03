@@ -1,0 +1,10 @@
+img {
+    padding: 5px;
+    width: 50px;
+    transition: all 0.1s ease;
+    vertical-align: bottom;
+}
+img:hover {
+    width: 75px;
+    transition: all 0.1 ease;
+}
