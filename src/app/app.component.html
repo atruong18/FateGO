@@ -4,16 +4,33 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div [collapse]="isCollapsed" class="collapse navbar-collapse">
+    <div [collapse]="isCollapsed" [isAnimated]="true" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Drops</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a [routerLink]="Path.Drops" class="nav-link">Drops</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Calculator</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Links</a>
+            <li class="nav-item dropdown" dropdown>
+                <a class="nav-link dropdown-toggle" dropdownToggle>
+                    Links
+                    <span class="caret"></span>
+                </a>
+                <div *dropdownMenu class="dropdown-menu">
+                        <a class="dropdown-item" target="_blank"
+                            href="https://docs.google.com/spreadsheets/d/1_SlTjrVRTgHgfS7sRqx4CeJMqlz687HdSlYqiW-JvQA/view">
+                            Grand Order Drop Rates
+                        </a>
+                        <a class="dropdown-item" target="_blank"
+                            href="https://docs.google.com/spreadsheets/d/1V2iDoN2HjafZ8Ube6Jgi0woIibY-Di3YxLMZdJ6quTA/edit">
+                            Event Resources
+                        </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" target="_blank" href="http://fate-go.cirnopedia.org/index.php">Cirnopedia</a>
+                    <a class="dropdown-item" target="_blank" href="http://fategrandorder.wikia.com/wiki/Fate/Grand_Order_Wikia">FGO Wikia</a>
+                    <a class="dropdown-item" target="_blank" href="https://grandorder.wiki/Main_Page">Grand Order Wiki</a>
+                </div>
             </li>
         </ul>
         <form class="form-inline">
