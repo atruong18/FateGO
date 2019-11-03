@@ -142,6 +142,14 @@ THE SOFTWARE.
 
 ngx-bootstrap/collapse
 
+ngx-bootstrap/component-loader
+
+ngx-bootstrap/dropdown
+
+ngx-bootstrap/positioning
+
+ngx-bootstrap/utils
+
 regenerator-runtime
 MIT
 MIT License
