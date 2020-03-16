@@ -165,6 +165,20 @@ export const DROPS: Item[] =
                     ap: 20,
                     apPerDrop: 39.0,
                     dropRate: 51.3
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Anchor Point`,
+                    ap: 20,
+                    apPerDrop: 47.5,
+                    dropRate: 42.1
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Icicles Grotto`,
+                    ap: 20,
+                    apPerDrop: 49.5,
+                    dropRate: 40.4
                 }
             ]
         },
@@ -239,6 +253,50 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 52.5,
                     dropRate: 40.0
+                }
+            ]
+        },
+        {
+            id: 108,
+            grade: Grade.BRONZE,
+            name: `Stimulus Gunpowder`,
+            imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/a/af/Stimulus_Gunpowder.png`,
+            servantsURL: `assets/drop-servants/drop-bnz-gunpowder.PNG`,
+            drops: [
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Smolensk`,
+                    ap: 20,
+                    apPerDrop: 30.4,
+                    dropRate: 65.8
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Sychyovka`,
+                    ap: 21,
+                    apPerDrop: 49.5,
+                    dropRate: 42.4
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Rebellion Army's Stronghold`,
+                    ap: 21,
+                    apPerDrop: 50.0,
+                    dropRate: 42.0
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Devastated Village`,
+                    ap: 21,
+                    apPerDrop: 51.7,
+                    dropRate: 40.6
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Vyazma`,
+                    ap: 21,
+                    apPerDrop: 52.7,
+                    dropRate: 39.9
                 }
             ]
         },
@@ -579,11 +637,11 @@ export const DROPS: Item[] =
                     dropRate: 28.0
                 },
                 {
-                    area: `Chaldea (Sun)`,
-                    quest: `Saber 20AP`,
-                    ap: 10,
-                    apPerDrop: 189,
-                    dropRate: 10.6
+                    area: `Anastasia`,
+                    quest: `Icicles Grotto`,
+                    ap: 20,
+                    apPerDrop: 79.5,
+                    dropRate: 25.2
                 }
             ]
         },
@@ -614,6 +672,50 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 82.3,
                     dropRate: 25.5
+                }
+            ]
+        },
+        {
+            id: 212,
+            grade: Grade.SILVER,
+            name: `Permafrost Ice Crystal`,
+            imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/8/84/Permafrost_Ice_Crystal.png`,
+            servantsURL: `assets/drop-servants/drop-svr-icecrystal.PNG`,
+            drops: [
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Moscow`,
+                    ap: 21,
+                    apPerDrop: 46.1,
+                    dropRate: 45.5
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Trampled Village`,
+                    ap: 21,
+                    apPerDrop: 82.4,
+                    dropRate: 25.5
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Ryazan`,
+                    ap: 21,
+                    apPerDrop: 84.7,
+                    dropRate: 24.8
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Demensk`,
+                    ap: 21,
+                    apPerDrop: 84.9,
+                    dropRate: 24.7
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Foundation of a Giant Tree`,
+                    ap: 21,
+                    apPerDrop: 103.5,
+                    dropRate: 20.3
                 }
             ]
         },
@@ -758,6 +860,27 @@ export const DROPS: Item[] =
                     ap: 20,
                     apPerDrop: 85.9,
                     dropRate: 23.3
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Rebellion Army's Stronghold`,
+                    ap: 21,
+                    apPerDrop: 95.3,
+                    dropRate: 22.0
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Anchor Point`,
+                    ap: 20,
+                    apPerDrop: 98.1,
+                    dropRate: 20.4
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Demensk`,
+                    ap: 21,
+                    apPerDrop: 103.6,
+                    dropRate: 20.3
                 },
                 {
                     area: `Camelot`,
