@@ -471,8 +471,8 @@ export const DROPS: Item[] =
                     dropRate: 21.1
                 },
                 {
-                    area: `Vacant House`,
-                    quest: `Suburb Mansion`,
+                    area: `Salem`,
+                    quest: `Vacant House`,
                     ap: 21,
                     apPerDrop: 103,
                     dropRate: 20.4
