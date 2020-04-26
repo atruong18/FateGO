@@ -35,7 +35,7 @@ export const DROPS: Item[] =
         {
             id: 101,
             grade: Grade.BRONZE,
-            name: `Unlucky Bone`,
+            name: `Evil Bone`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/c/ca/Unlucky_bone.png`,
             servantsURL: `assets/drop-servants/drop-bnz-bone.PNG`,
             drops: [
@@ -88,7 +88,7 @@ export const DROPS: Item[] =
         {
             id: 103,
             grade: Grade.BRONZE,
-            name: `Void Dust`,
+            name: `Void's Dust`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/4/43/Voids_refuse.png`,
             servantsURL: `assets/drop-servants/drop-bnz-dust.PNG`,
             drops: [
@@ -148,7 +148,7 @@ export const DROPS: Item[] =
         {
             id: 105,
             grade: Grade.BRONZE,
-            name: `Stinger of Certain Death`,
+            name: `Deadly Poisonous Needle`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/c/cc/Stinger_of_Certain_Death.png`,
             servantsURL: `assets/drop-servants/drop-bnz-stinger.png`,
             drops: [
@@ -185,7 +185,7 @@ export const DROPS: Item[] =
         {
             id: 106,
             grade: Grade.BRONZE,
-            name: `Magical Cerebrospinal Fluid`,
+            name: `Mystic Spinal Fluid`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/b/bc/Magical_Cerebrospinal_Fluid_icon.png`,
             servantsURL: `assets/drop-servants/drop-bnz-fluid.PNG`,
             drops: [
@@ -215,7 +215,7 @@ export const DROPS: Item[] =
         {
             id: 107,
             grade: Grade.BRONZE,
-            name: `Night-Weeping Iron Stake`,
+            name: `Stake of Wailing Night`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/3/35/Iron_Stake.png`,
             servantsURL: `assets/drop-servants/drop-bnz-stake.PNG`,
             drops: [
@@ -259,7 +259,7 @@ export const DROPS: Item[] =
         {
             id: 108,
             grade: Grade.BRONZE,
-            name: `Stimulus Gunpowder`,
+            name: `Mystic Gunpowder`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/a/af/Stimulus_Gunpowder.png`,
             servantsURL: `assets/drop-servants/drop-bnz-gunpowder.PNG`,
             drops: [
@@ -385,7 +385,7 @@ export const DROPS: Item[] =
         {
             id: 202,
             grade: Grade.SILVER,
-            name: `Octuplet Twin Crystals`,
+            name: `Octuplet Crystals`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/8/84/Octuplet_twin_crystals.png`,
             servantsURL: `assets/drop-servants/drop-svr-crystal.PNG`,
             drops: [
@@ -648,7 +648,7 @@ export const DROPS: Item[] =
         {
             id: 211,
             grade: Grade.SILVER,
-            name: `Kotan Magatama`,
+            name: `Refined Magatama`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/9/9c/Kotan_Magatama.png`,
             servantsURL: `assets/drop-servants/drop-svr-magatama.PNG`,
             drops: [
@@ -678,7 +678,7 @@ export const DROPS: Item[] =
         {
             id: 212,
             grade: Grade.SILVER,
-            name: `Permafrost Ice Crystal`,
+            name: `Eternal Ice`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/8/84/Permafrost_Ice_Crystal.png`,
             servantsURL: `assets/drop-servants/drop-svr-icecrystal.PNG`,
             drops: [
@@ -850,7 +850,7 @@ export const DROPS: Item[] =
         {
             id: 304,
             grade: Grade.GOLD,
-            name: `War Horse's Small Horn`,
+            name: `Warhorse's Young Horn`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/b/b9/Horsehorn.png`,
             servantsURL: `assets/drop-servants/drop-gld-horn.PNG`,
             drops: [
@@ -901,7 +901,7 @@ export const DROPS: Item[] =
         {
             id: 305,
             grade: Grade.GOLD,
-            name: `Tear Stone of Blood`,
+            name: `Tearstone of Blood`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/f/ff/Bloodtear.png`,
             servantsURL: `assets/drop-servants/drop-gld-tears.PNG`,
             drops: [
@@ -924,7 +924,7 @@ export const DROPS: Item[] =
         {
             id: 306,
             grade: Grade.GOLD,
-            name: `Black Tallow`,
+            name: `Black Beast Grease`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/4/49/Blacktallow.png`,
             servantsURL: `assets/drop-servants/drop-gld-tallow.PNG`,
             drops: [
@@ -1030,7 +1030,7 @@ export const DROPS: Item[] =
         {
             id: 310,
             grade: Grade.GOLD,
-            name: `Cursed Beast Cholecyst`,
+            name: `Cursed Beast Gallstone`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/5/59/Cursed_Beast_Cholecyst.png`,
             servantsURL: `assets/drop-servants/drop-gld-cholecyst.PNG`,
             drops: [
@@ -1053,7 +1053,7 @@ export const DROPS: Item[] =
         {
             id: 311,
             grade: Grade.GOLD,
-            name: `Bizarre Godly Wine`,
+            name: `Mysterious Divine Wine`,
             imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/a/a8/Bizarre_God_Wine.png`,
             servantsURL: `assets/drop-servants/drop-gld-wine.PNG`,
             drops: [
