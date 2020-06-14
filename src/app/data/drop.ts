@@ -13,22 +13,29 @@ export const DROPS: Item[] =
                     area: `Okeanos`,
                     quest: `Pirate Ship`,
                     ap: 12,
-                    apPerDrop: 20.2,
-                    dropRate: 59.6
+                    apPerDrop: 20.4,
+                    dropRate: 58.8
                 },
                 {
                     area: `Orleans`,
                     quest: `Marseille`,
                     ap: 7,
-                    apPerDrop: 22.8,
-                    dropRate: 30.6
+                    apPerDrop: 23.5,
+                    dropRate: 29.8
                 },
                 {
-                    area: `America`,
-                    quest: `Dallas`,
-                    ap: 17,
-                    apPerDrop: 25.0,
-                    dropRate: 67.9
+                    area: `Orleans`,
+                    quest: `Pirate Island`,
+                    ap: 13,
+                    apPerDrop: 23.5,
+                    dropRate: 55.4
+                },
+                {
+                    area: `Septem`,
+                    quest: `Mediolanum`,
+                    ap: 9,
+                    apPerDrop: 25.5,
+                    dropRate: 35.3
                 }
             ]
         },
@@ -41,17 +48,38 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Fuyuki`,
-                    quest: `X-C`,
+                    quest: `Unknown Coordinates X-C`,
                     ap: 4,
-                    apPerDrop: 21.7,
-                    dropRate: 18.4
+                    apPerDrop: 22.4,
+                    dropRate: 17.9
                 },
                 {
                     area: `Fuyuki`,
-                    quest: `X-G`,
+                    quest: `Unknown Coordinates X-G`,
                     ap: 15,
-                    apPerDrop: 23.4,
-                    dropRate: 64.1
+                    apPerDrop: 23.6,
+                    dropRate: 63.5
+                },
+                {
+                    area: `Camelot`,
+                    quest: `Sandstorm Desert`,
+                    ap: 19,
+                    apPerDrop: 30.0,
+                    dropRate: 63.3
+                },
+                {
+                    area: `Septem`,
+                    quest: `Germania`,
+                    ap: 15,
+                    apPerDrop: 30.6,
+                    dropRate: 49.1
+                },
+                {
+                    area: `Okeanos`,
+                    quest: `Sunken Rock Seas`,
+                    ap: 17,
+                    apPerDrop: 46.8,
+                    dropRate: 36.3
                 }
             ]
         },
@@ -63,25 +91,60 @@ export const DROPS: Item[] =
             servantsURL: `assets/drop-servants/drop-bnz-fang.PNG`,
             drops: [
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Deming`,
                     ap: 17,
-                    apPerDrop: 27.1,
-                    dropRate: 62.7
+                    apPerDrop: 27.4,
+                    dropRate: 62.0
                 },
                 {
                     area: `Okeanos`,
                     quest: `Island of Wyverns`,
                     ap: 14,
-                    apPerDrop: 27.8,
-                    dropRate: 50.3
+                    apPerDrop: 28.2,
+                    dropRate: 49.6
                 },
                 {
                     area: `Babylonia`,
                     quest: `Eridu`,
                     ap: 21,
-                    apPerDrop: 32.0,
-                    dropRate: 65.7
+                    apPerDrop: 33.8,
+                    dropRate: 62.2
+                },
+                {
+                    area: `Agartha`,
+                    quest: `Foothills Jungle`,
+                    ap: 21,
+                    apPerDrop: 42.6,
+                    dropRate: 49.3
+                },
+                {
+                    area: `Camelot`,
+                    quest: `East Village`,
+                    ap: 19,
+                    apPerDrop: 44.6,
+                    dropRate: 42.6
+                },
+                {
+                    area: `Salem`,
+                    quest: `Jail`,
+                    ap: 21,
+                    apPerDrop: 51.5,
+                    dropRate: 40.8
+                },
+                {
+                    area: `Orleans`,
+                    quest: `La Charite`,
+                    ap: 7,
+                    apPerDrop: 60.3,
+                    dropRate: 11.6
+                },
+                {
+                    area: `Fuyuki`,
+                    quest: `Mobile Coordinate No.0`,
+                    ap: 7,
+                    apPerDrop: 68.8,
+                    dropRate: 10.2
                 }
             ]
         },
@@ -93,18 +156,39 @@ export const DROPS: Item[] =
             servantsURL: `assets/drop-servants/drop-bnz-dust.PNG`,
             drops: [
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Charlotte`,
                     ap: 20,
-                    apPerDrop: 31.4,
-                    dropRate: 63.7
+                    apPerDrop: 31.2,
+                    dropRate: 64.2
                 },
                 {
                     area: `Camelot`,
-                    quest: `Remnants of Western Village`,
+                    quest: `West Village Ruins`,
                     ap: 20,
-                    apPerDrop: 42.5,
-                    dropRate: 47.1
+                    apPerDrop: 42.1,
+                    dropRate: 47.5
+                },
+                {
+                    area: `Septem`,
+                    quest: `Massilia`,
+                    ap: 9,
+                    apPerDrop: 53.6,
+                    dropRate: 16.8
+                },
+                {
+                    area: `Okeanos`,
+                    quest: `Archipelago (Quiet Bay)`,
+                    ap: 15,
+                    apPerDrop: 59.2,
+                    dropRate: 25.3
+                },
+                {
+                    area: `Agartha`,
+                    quest: `Ys`,
+                    ap: 21,
+                    apPerDrop: 63.2,
+                    dropRate: 33.2
                 }
             ]
         },
@@ -117,31 +201,38 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Camelot`,
-                    quest: `Wilderness of Death`,
+                    quest: `Wastelands of Death`,
                     ap: 19,
-                    apPerDrop: 29.9,
-                    dropRate: 63.5
+                    apPerDrop: 29.2,
+                    dropRate: 65.1
+                },
+                {
+                    area: `Salem`,
+                    quest: `Isolated Mansion`,
+                    ap: 21,
+                    apPerDrop: 51.5,
+                    dropRate: 40.7
                 },
                 {
                     area: `Camelot`,
                     quest: `Great Temple`,
                     ap: 22,
-                    apPerDrop: 51.3,
-                    dropRate: 42.9
+                    apPerDrop: 51.6,
+                    dropRate: 42.6
                 },
                 {
                     area: `Salem`,
-                    quest: `Suburb Mansion`,
-                    ap: 21,
-                    apPerDrop: 51.8,
-                    dropRate: 40.5
-                },
-                {
-                    area: `Salem`,
-                    quest: `Quay`,
+                    quest: `Wharf`,
                     ap: 21,
                     apPerDrop: 52.6,
                     dropRate: 39.9
+                },
+                {
+                    area: `Agartha`,
+                    quest: `Northern Cliffs`,
+                    ap: 21,
+                    apPerDrop: 52.8,
+                    dropRate: 39.8
                 }
             ]
         },
@@ -156,15 +247,15 @@ export const DROPS: Item[] =
                     area: `Babylonia`,
                     quest: `Field of Reeds`,
                     ap: 21,
-                    apPerDrop: 34.0,
-                    dropRate: 61.7
+                    apPerDrop: 33.6,
+                    dropRate: 62.6
                 },
                 {
                     area: `Babylonia`,
                     quest: `Plateau`,
                     ap: 20,
-                    apPerDrop: 39.0,
-                    dropRate: 51.3
+                    apPerDrop: 40.9,
+                    dropRate: 48.9
                 },
                 {
                     area: `Anastasia`,
@@ -175,7 +266,7 @@ export const DROPS: Item[] =
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Icicles Grotto`,
+                    quest: `Icy Cavern`,
                     ap: 20,
                     apPerDrop: 49.5,
                     dropRate: 40.4
@@ -193,22 +284,29 @@ export const DROPS: Item[] =
                     area: `Shinjuku`,
                     quest: `Shinjuku Station`,
                     ap: 21,
-                    apPerDrop: 32.3,
-                    dropRate: 65.0
+                    apPerDrop: 32.0,
+                    dropRate: 65.5
                 },
                 {
                     area: `Shinjuku`,
-                    quest: `Japan National Route 20`,
+                    quest: `Yoyogi 2-chome`,
+                    ap: 20,
+                    apPerDrop: 49.8,
+                    dropRate: 40.1
+                },
+                {
+                    area: `Shinjuku`,
+                    quest: `Route 20`,
                     ap: 20,
                     apPerDrop: 50.0,
                     dropRate: 40.0
                 },
                 {
                     area: `Shinjuku`,
-                    quest: `Yoyogi 2-chome`,
-                    ap: 20,
-                    apPerDrop: 50.3,
-                    dropRate: 39.8
+                    quest: `Shinjuku 4-Chome`,
+                    ap: 21,
+                    apPerDrop: 51.7,
+                    dropRate: 40.6
                 }
             ]
         },
@@ -221,38 +319,38 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Salem`,
-                    quest: `Gallow Hill`,
+                    quest: `Gallows Hill`,
                     ap: 21,
-                    apPerDrop: 30.6,
-                    dropRate: 68.6
+                    apPerDrop: 31.4,
+                    dropRate: 67.0
                 },
                 {
                     area: `Salem`,
-                    quest: `Carter House`,
+                    quest: `Carter Residence`,
                     ap: 20,
-                    apPerDrop: 49.9,
-                    dropRate: 40.1
-                },
-                {
-                    area: `Salem`,
-                    quest: `Suburb Mansion`,
-                    ap: 21,
-                    apPerDrop: 51.5,
-                    dropRate: 40.8
-                },
-                {
-                    area: `Salem`,
-                    quest: `Vacant House`,
-                    ap: 21,
-                    apPerDrop: 51.8,
-                    dropRate: 40.5
-                },
-                {
-                    area: `Salem`,
-                    quest: `Meadows`,
-                    ap: 21,
-                    apPerDrop: 52.5,
+                    apPerDrop: 50.0,
                     dropRate: 40.0
+                },
+                {
+                    area: `Salem`,
+                    quest: `Isolated Mansion`,
+                    ap: 21,
+                    apPerDrop: 51.6,
+                    dropRate: 40.7
+                },
+                {
+                    area: `Salem`,
+                    quest: `Empty House`,
+                    ap: 21,
+                    apPerDrop: 52.2,
+                    dropRate: 40.2
+                },
+                {
+                    area: `Salem`,
+                    quest: `Meadow`,
+                    ap: 21,
+                    apPerDrop: 53.2,
+                    dropRate: 39.4
                 }
             ]
         },
@@ -267,35 +365,35 @@ export const DROPS: Item[] =
                     area: `Anastasia`,
                     quest: `Yaga Smolensk`,
                     ap: 20,
-                    apPerDrop: 30.4,
-                    dropRate: 65.8
+                    apPerDrop: 30.3,
+                    dropRate: 66.0
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Yaga Sychyovka`,
-                    ap: 21,
-                    apPerDrop: 49.5,
-                    dropRate: 42.4
-                },
-                {
-                    area: `Anastasia`,
-                    quest: `Rebellion Army's Stronghold`,
+                    quest: `Rebel Stronghold`,
                     ap: 21,
                     apPerDrop: 50.0,
                     dropRate: 42.0
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Devastated Village`,
+                    quest: `Yaga Sychyovka`,
                     ap: 21,
-                    apPerDrop: 51.7,
-                    dropRate: 40.6
+                    apPerDrop: 50.9,
+                    dropRate: 41.3
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Burned Village`,
+                    ap: 21,
+                    apPerDrop: 52.1,
+                    dropRate: 40.3
                 },
                 {
                     area: `Anastasia`,
                     quest: `Yaga Vyazma`,
                     ap: 21,
-                    apPerDrop: 52.7,
+                    apPerDrop: 52.6,
                     dropRate: 39.9
                 }
             ]
@@ -310,38 +408,52 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Babylonia`,
-                    quest: `Abolished Metropolis Babylon`,
+                    quest: `Fallen Babylon`,
                     ap: 20,
-                    apPerDrop: 40.0,
-                    dropRate: 50.0
+                    apPerDrop: 40.2,
+                    dropRate: 49.8
                 },
                 {
                     area: `Salem`,
                     quest: `Quiet Forest`,
                     ap: 20,
-                    apPerDrop: 42.4,
-                    dropRate: 47.2
+                    apPerDrop: 40.7,
+                    dropRate: 49.2
                 },
                 {
                     area: `Salem`,
-                    quest: `Refuge`,
+                    quest: `Hideout`,
                     ap: 21,
-                    apPerDrop: 47.4,
-                    dropRate: 44.3
+                    apPerDrop: 46.6,
+                    dropRate: 45.0
+                },
+                {
+                    area: `Shimosa`,
+                    quest: `Rice Field`,
+                    ap: 18,
+                    apPerDrop: 50.3,
+                    dropRate: 39.8
                 },
                 {
                     area: `Agartha`,
                     quest: `Riverside Town`,
                     ap: 20,
-                    apPerDrop: 50.4,
-                    dropRate: 39.7
+                    apPerDrop: 50.6,
+                    dropRate: 39.6
                 },
                 {
                     area: `Okeanos`,
                     quest: `Bountiful Sea`,
                     ap: 18,
-                    apPerDrop: 58.4,
-                    dropRate: 30.8
+                    apPerDrop: 60.1,
+                    dropRate: 30.0
+                },
+                {
+                    area: `Septem`,
+                    quest: `Britannia`,
+                    ap: 10,
+                    apPerDrop: 85.9,
+                    dropRate: 11.6
                 }
             ]
         },
@@ -354,31 +466,38 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Babylonia`,
-                    quest: `Cuthah`,
+                    quest: `Kutha`,
                     ap: 21,
-                    apPerDrop: 54.2,
-                    dropRate: 38.8
+                    apPerDrop: 52.2,
+                    dropRate: 40.2
                 },
                 {
                     area: `Camelot`,
-                    quest: `Evening Bell Mausoleum`,
+                    quest: `Mausoleum of the Evening Bell`,
                     ap: 19,
-                    apPerDrop: 57.8,
-                    dropRate: 32.9
+                    apPerDrop: 58.4,
+                    dropRate: 32.6
                 },
                 {
                     area: `Okeanos`,
                     quest: `Stormy Seas`,
                     ap: 15,
-                    apPerDrop: 67.3,
-                    dropRate: 22.3
+                    apPerDrop: 67.4,
+                    dropRate: 22.2
                 },
                 {
                     area: `Shimosa`,
-                    quest: `Paddy Fields`,
+                    quest: `Rice Field`,
                     ap: 20,
-                    apPerDrop: 77.6,
-                    dropRate: 25.8
+                    apPerDrop: 77.8,
+                    dropRate: 25.7
+                },
+                {
+                    area: `Septem`,
+                    quest: `Mt. Etna`,
+                    ap: 9,
+                    apPerDrop: 110.2,
+                    dropRate: 8.2
                 }
             ]
         },
@@ -391,17 +510,31 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Agartha`,
-                    quest: `Peach Blossom Spring`,
+                    quest: `Peach Blossom Shangri-La`,
                     ap: 21,
-                    apPerDrop: 52.4,
-                    dropRate: 40.1
+                    apPerDrop: 52.0,
+                    dropRate: 40.4
                 },
                 {
                     area: `Camelot`,
-                    quest: `Holy City Districts`,
+                    quest: `Holy City`,
                     ap: 20,
-                    apPerDrop: 72.5,
-                    dropRate: 27.6
+                    apPerDrop: 73.1,
+                    dropRate: 27.4
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Heroes' Cellar`,
+                    ap: 21,
+                    apPerDrop: 84.9,
+                    dropRate: 24.7
+                },
+                {
+                    area: `Shimosa`,
+                    quest: `Rear Mountain (Nameless Sacred Mountain)`,
+                    ap: 21,
+                    apPerDrop: 86.3,
+                    dropRate: 24.3
                 },
                 {
                     area: `Okeanos`,
@@ -409,6 +542,20 @@ export const DROPS: Item[] =
                     ap: 14,
                     apPerDrop: 126.4,
                     dropRate: 11.1
+                },
+                {
+                    area: `Septem`,
+                    quest: `Gaul`,
+                    ap: 9,
+                    apPerDrop: 142.9,
+                    dropRate: 6.3
+                },
+                {
+                    area: `Chaldea Gate (Wed)`,
+                    quest: `WED Berserker Training Ground- Int`,
+                    ap: 20,
+                    apPerDrop: 177.0,
+                    dropRate: 11.3
                 }
             ]
         },
@@ -421,24 +568,45 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Agartha`,
-                    quest: `Chasm on The Ground`,
+                    quest: `Chasm in the Earth`,
                     ap: 21,
-                    apPerDrop: 55.6,
-                    dropRate: 37.7
+                    apPerDrop: 52.2,
+                    dropRate: 40.2
                 },
                 {
                     area: `Babylonia`,
-                    quest: `Marshland`,
+                    quest: `Bog`,
                     ap: 21,
-                    apPerDrop: 79.1,
-                    dropRate: 26.5
+                    apPerDrop: 83.9,
+                    dropRate: 25.0
                 },
                 {
                     area: `Okeanos`,
                     quest: `Sunken Rock Seas`,
                     ap: 17,
-                    apPerDrop: 106.9,
+                    apPerDrop: 107.2,
                     dropRate: 15.9
+                },
+                {
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Nov`,
+                    ap: 10,
+                    apPerDrop: 125.8,
+                    dropRate: 7.9
+                },
+                {
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Int`,
+                    ap: 20,
+                    apPerDrop: 134.0,
+                    dropRate: 14.9
+                },
+                {
+                    area: `Camelot`,
+                    quest: `Dune of Dawn`,
+                    ap: 19,
+                    apPerDrop: 134.8,
+                    dropRate: 14.1
                 }
             ]
         },
@@ -453,29 +621,43 @@ export const DROPS: Item[] =
                     area: `Salem`,
                     quest: `Town Hall`,
                     ap: 21,
-                    apPerDrop: 59.3,
-                    dropRate: 35.4
+                    apPerDrop: 59.5,
+                    dropRate: 35.3
                 },
                 {
                     area: `Agartha`,
-                    quest: `Subterranean Large River`,
+                    quest: `Great Underground River`,
                     ap: 21,
-                    apPerDrop: 70.2,
-                    dropRate: 29.9
+                    apPerDrop: 69.5,
+                    dropRate: 30.2
                 },
                 {
                     area: `Agartha`,
                     quest: `Riverside Town`,
                     ap: 20,
-                    apPerDrop: 94.7,
-                    dropRate: 21.1
+                    apPerDrop: 98.6,
+                    dropRate: 20.3
                 },
                 {
                     area: `Salem`,
-                    quest: `Vacant House`,
+                    quest: `Empty House`,
                     ap: 21,
-                    apPerDrop: 103,
-                    dropRate: 20.4
+                    apPerDrop: 103.3,
+                    dropRate: 20.3
+                },
+                {
+                    area: `Chaldea Gate (Sun)`,
+                    quest: `SUN Saber Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 174.4,
+                    dropRate: 17.2
+                },
+                {
+                    area: `Okeanos`,
+                    quest: `Bountiful Sea`,
+                    ap: 18,
+                    apPerDrop: 191.0,
+                    dropRate: 9.4
                 }
             ]
         },
@@ -490,29 +672,50 @@ export const DROPS: Item[] =
                     area: `Shinjuku`,
                     quest: `Barrel Tower`,
                     ap: 21,
-                    apPerDrop: 46.0,
-                    dropRate: 45.7
+                    apPerDrop: 45.6,
+                    dropRate: 46.0
                 },
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Chicago`,
                     ap: 21,
                     apPerDrop: 51.4,
-                    dropRate: 40.9
+                    dropRate: 40.8
+                },
+                {
+                    area: `Shinjuku`,
+                    quest: `Kabukicho`,
+                    ap: 21,
+                    apPerDrop: 67.1,
+                    dropRate: 31.3
                 },
                 {
                     area: `London`,
                     quest: `Clerkenwell`,
                     ap: 18,
-                    apPerDrop: 68.1,
-                    dropRate: 26.4
+                    apPerDrop: 72.4,
+                    dropRate: 24.9
                 },
                 {
                     area: `Camelot`,
-                    quest: `Atlas Academy`,
+                    quest: `Atlas Institute`,
                     ap: 20,
-                    apPerDrop: 95.4,
-                    dropRate: 21.0
+                    apPerDrop: 99.5,
+                    dropRate: 20.1
+                },
+                {
+                    area: `E Pluribus Unum`,
+                    quest: `Denver`,
+                    ap: 17,
+                    apPerDrop: 101.2,
+                    dropRate: 16.8
+                },
+                {
+                    area: `Chaldea Gate (Sat)`,
+                    quest: `SAT Assassin Training Ground- Nov`,
+                    ap: 10,
+                    apPerDrop: 108.2,
+                    dropRate: 9.2
                 }
             ]
         },
@@ -527,16 +730,37 @@ export const DROPS: Item[] =
                     area: `Shinjuku`,
                     quest: `Shinjuku 2-chome`,
                     ap: 21,
-                    apPerDrop: 68.5,
-                    dropRate: 30.7
+                    apPerDrop: 69.3,
+                    dropRate: 30.3
                 },
                 {
                     area: `London`,
                     quest: `Hyde Park`,
                     ap: 20,
-                    apPerDrop: 72.8,
-                    dropRate: 27.5
+                    apPerDrop: 73.4,
+                    dropRate: 27.2
                 },
+                {
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 195.0,
+                    dropRate: 15.4
+                },
+                {
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Adv`,
+                    ap: 40,
+                    apPerDrop: 195.2,
+                    dropRate: 20.5
+                },
+                {
+                    area: `Camelot`,
+                    quest: `Atlas Institute`,
+                    ap: 20,
+                    apPerDrop: 253.2,
+                    dropRate: 7.9
+                }
             ]
         },
         {
@@ -548,18 +772,25 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Salem`,
-                    quest: `Whateley House`,
+                    quest: `Whateley Residence`,
                     ap: 21,
-                    apPerDrop: 50.0,
-                    dropRate: 42.0
+                    apPerDrop: 52.3,
+                    dropRate: 40.2
                 },
                 {
                     area: `London`,
                     quest: `Southwark`,
                     ap: 19,
-                    apPerDrop: 61.4,
-                    dropRate: 31.0
+                    apPerDrop: 62.9,
+                    dropRate: 30.2
                 },
+                {
+                    area: `Chaldea Gate (Tue)`,
+                    quest: `TUE Lancer Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 167.5,
+                    dropRate: 17.9
+                }
             ]
         },
         {
@@ -571,17 +802,31 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Camelot`,
-                    quest: `Vast Land of Nothingness`,
+                    quest: `Land of the Void`,
                     ap: 22,
-                    apPerDrop: 50.1,
-                    dropRate: 43.9
+                    apPerDrop: 48.8,
+                    dropRate: 45.0
                 },
                 {
                     area: `Okeanos`,
                     quest: `Caldera Island`,
                     ap: 17,
-                    apPerDrop: 131.5,
+                    apPerDrop: 131.3,
                     dropRate: 12.9
+                },
+                {
+                    area: `Chaldea Gate (Thu)`,
+                    quest: `THU Rider Training Ground- Int`,
+                    ap: 20,
+                    apPerDrop: 178.6,
+                    dropRate: 11.2
+                },
+                {
+                    area: `Chaldea Gate (Thu)`,
+                    quest: `THU Rider Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 187.0,
+                    dropRate: 16.0
                 }
             ]
         },
@@ -594,24 +839,24 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Camelot`,
-                    quest: `Sovereign Castle`,
+                    quest: `Royal Castle`,
                     ap: 21,
-                    apPerDrop: 56.9,
-                    dropRate: 36.9
+                    apPerDrop: 59.7,
+                    dropRate: 35.2
                 },
                 {
                     area: `Camelot`,
-                    quest: `Holy City Main Entrance`,
+                    quest: `Main Gate`,
                     ap: 20,
-                    apPerDrop: 61.0,
-                    dropRate: 32.8
+                    apPerDrop: 65.8,
+                    dropRate: 30.4
                 },
                 {
                     area: `Camelot`,
                     quest: `Round Table Fortress`,
                     ap: 19,
-                    apPerDrop: 100.3,
-                    dropRate: 18.9
+                    apPerDrop: 103.9,
+                    dropRate: 18.3
                 }
             ]
         },
@@ -626,22 +871,29 @@ export const DROPS: Item[] =
                     area: `Babylonia`,
                     quest: `Observatory`,
                     ap: 21,
-                    apPerDrop: 50.5,
-                    dropRate: 41.5
+                    apPerDrop: 52.1,
+                    dropRate: 40.3
                 },
                 {
                     area: `Okeanos`,
                     quest: `Archipelago (Hidden Island)`,
                     ap: 16,
-                    apPerDrop: 57.2,
-                    dropRate: 28.0
+                    apPerDrop: 59.9,
+                    dropRate: 26.7
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Icicles Grotto`,
+                    quest: `Icy Cavern`,
                     ap: 20,
-                    apPerDrop: 79.5,
+                    apPerDrop: 79.4,
                     dropRate: 25.2
+                },
+                {
+                    area: `Chaldea Gate (Sun)`,
+                    quest: `SUN Saber Training Ground- Exp`,
+                    ap: 40,
+                    apPerDrop: 193.9,
+                    dropRate: 20.6
                 }
             ]
         },
@@ -656,22 +908,22 @@ export const DROPS: Item[] =
                     area: `Shimosa`,
                     quest: `Castle Town`,
                     ap: 21,
-                    apPerDrop: 51.8,
-                    dropRate: 40.5
+                    apPerDrop: 52.0,
+                    dropRate: 40.4
                 },
                 {
                     area: `Shimosa`,
-                    quest: `Tokejou`,
+                    quest: `Toke Castle`,
                     ap: 21,
-                    apPerDrop: 81.2,
-                    dropRate: 25.9
+                    apPerDrop: 79.9,
+                    dropRate: 26.3
                 },
                 {
                     area: `Shimosa`,
-                    quest: `Hamlet`,
+                    quest: `Village`,
                     ap: 21,
-                    apPerDrop: 82.3,
-                    dropRate: 25.5
+                    apPerDrop: 81.8,
+                    dropRate: 25.7
                 }
             ]
         },
@@ -691,31 +943,84 @@ export const DROPS: Item[] =
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Trampled Village`,
+                    quest: `Crushed Village`,
                     ap: 21,
-                    apPerDrop: 82.4,
-                    dropRate: 25.5
-                },
-                {
-                    area: `Anastasia`,
-                    quest: `Yaga Ryazan`,
-                    ap: 21,
-                    apPerDrop: 84.7,
-                    dropRate: 24.8
+                    apPerDrop: 81.7,
+                    dropRate: 25.7
                 },
                 {
                     area: `Anastasia`,
                     quest: `Yaga Demensk`,
                     ap: 21,
-                    apPerDrop: 84.9,
-                    dropRate: 24.7
+                    apPerDrop: 83.8,
+                    dropRate: 25.1
+                }
+            ]
+        },
+        {
+            id: 213,
+            grade: Grade.SILVER,
+            name: `Giant's Ring`,
+            imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/b/b3/Giant%27s_Ring.png`,
+            servantsURL: `assets/drop-servants/drop-svr-giantring.PNG`,
+            drops: [
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Giants' Flower Patio`,
+                    ap: 20,
+                    apPerDrop: 49.1,
+                    dropRate: 40.8
                 },
                 {
-                    area: `Anastasia`,
-                    quest: `Foundation of a Giant Tree`,
+                    area: `Götterdämmerung`,
+                    quest: `Knoll of Thin Ice`,
+                    ap: 20,
+                    apPerDrop: 78.7,
+                    dropRate: 25.4
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Ablazed Mansion`,
                     ap: 21,
-                    apPerDrop: 103.5,
-                    dropRate: 20.3
+                    apPerDrop: 81.7,
+                    dropRate: 25.7
+                }
+            ]
+        },
+        {
+            id: 214,
+            grade: Grade.SILVER,
+            name: `Aurora Steel`,
+            imgURL: `https://vignette.wikia.nocookie.net/fategrandorder/images/e/e7/Aurora_Steel.png`,
+            servantsURL: `assets/drop-servants/drop-svr-aurorasteel.PNG`,
+            drops: [
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Castle of Ice and Snow`,
+                    ap: 21,
+                    apPerDrop: 54.2,
+                    dropRate: 38.8
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `67th Settlement`,
+                    ap: 21,
+                    apPerDrop: 82.2,
+                    dropRate: 25.5
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `23rd Settlement`,
+                    ap: 21,
+                    apPerDrop: 84.0,
+                    dropRate: 25.0
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Ablazed Mansion`,
+                    ap: 21,
+                    apPerDrop: 85.1,
+                    dropRate: 24.7
                 }
             ]
         },
@@ -728,25 +1033,53 @@ export const DROPS: Item[] =
             servantsURL: `assets/drop-servants/drop-gld-claw.PNG`,
             drops: [
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Des Moines`,
                     ap: 18,
-                    apPerDrop: 87.7,
-                    dropRate: 20.5
+                    apPerDrop: 89.8,
+                    dropRate: 20.0
                 },
                 {
                     area: `Agartha`,
-                    quest: `Subterranean Moor`,
+                    quest: `Underground Plains`,
                     ap: 20,
-                    apPerDrop: 95.9,
-                    dropRate: 20.9
+                    apPerDrop: 98.3,
+                    dropRate: 20.4
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Yaga Ryazan`,
+                    ap: 21,
+                    apPerDrop: 101.6,
+                    dropRate: 20.7
+                },
+                {
+                    area: `Shinjuku`,
+                    quest: `Shinjuku 4-Chome`,
+                    ap: 21,
+                    apPerDrop: 116.4,
+                    dropRate: 18.0
                 },
                 {
                     area: `Babylonia`,
                     quest: `Ur`,
                     ap: 21,
-                    apPerDrop: 110.0,
-                    dropRate: 19.1
+                    apPerDrop: 117.1,
+                    dropRate: 17.9
+                },
+                {
+                    area: `Chaldea Gate (Wed)`,
+                    quest: `WED Berserker Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 389.6,
+                    dropRate: 7.7
+                },
+                {
+                    area: `Septem`,
+                    quest: `Germania`,
+                    ap: 15,
+                    apPerDrop: 535.7,
+                    dropRate: 2.8
                 },
             ]
         },
@@ -759,31 +1092,31 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Salem`,
-                    quest: `Carter House`,
+                    quest: `Carter Residence`,
                     ap: 20,
-                    apPerDrop: 162.2,
+                    apPerDrop: 162.7,
                     dropRate: 12.3
                 },
                 {
                     area: `Shinjuku`,
-                    quest: `Shinjuku Imperial Garden`,
+                    quest: `Shinjuku Gyoen`,
                     ap: 21,
-                    apPerDrop: 171.3,
-                    dropRate: 12.3
+                    apPerDrop: 175.0,
+                    dropRate: 12.0
                 },
                 {
-                    area: `Chaldea (Fri)`,
-                    quest: `Caster 30AP`,
-                    ap: 30,
-                    apPerDrop: 500.0,
-                    dropRate: 6.0
-                },
-                {
-                    area: `Chaldea (Fri)`,
-                    quest: `Caster 40AP`,
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Exp`,
                     ap: 40,
-                    apPerDrop: 517.7,
-                    dropRate: 7.7
+                    apPerDrop: 637.5,
+                    dropRate: 6.3
+                },
+                {
+                    area: `Chaldea Gate (Fri)`,
+                    quest: `FRI Caster Training Ground- Adv`,
+                    ap: 30,
+                    apPerDrop: 784.3,
+                    dropRate: 3.8
                 }
             ]
         },
@@ -798,22 +1131,22 @@ export const DROPS: Item[] =
                     area: `Babylonia`,
                     quest: `Nippur`,
                     ap: 21,
-                    apPerDrop: 161.2,
-                    dropRate: 13.0
+                    apPerDrop: 172.9,
+                    dropRate: 12.1
                 },
                 {
-                    area: `Chaldea (Thu)`,
-                    quest: `Rider 40AP`,
+                    area: `Chaldea Gate (Thu)`,
+                    quest: `THU Rider Training Ground- Exp`,
                     ap: 40,
-                    apPerDrop: 476.1,
-                    dropRate: 8.4
+                    apPerDrop: 537.7,
+                    dropRate: 7.4
                 },
                 {
-                    area: `Chaldea (Thu)`,
-                    quest: `Rider 30AP`,
+                    area: `Chaldea Gate (Thu)`,
+                    quest: `THU Rider Training Ground- Adv`,
                     ap: 30,
-                    apPerDrop: 888.0,
-                    dropRate: 3.4
+                    apPerDrop: 867.5,
+                    dropRate: 3.5
                 }
             ]
         },
@@ -826,24 +1159,31 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Camelot`,
-                    quest: `Holy City Districts`,
+                    quest: `Holy City`,
                     ap: 20,
-                    apPerDrop: 162.0,
-                    dropRate: 12.3
+                    apPerDrop: 166.3,
+                    dropRate: 12.0
                 },
                 {
                     area: `Shinjuku`,
-                    quest: `Tower's Top Floor`,
+                    quest: `Tower - Top Floor`,
                     ap: 21,
-                    apPerDrop: 199.3,
-                    dropRate: 10.5
+                    apPerDrop: 178.9,
+                    dropRate: 11.7
                 },
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Washington`,
                     ap: 20,
-                    apPerDrop: 281.7,
-                    dropRate: 7.1
+                    apPerDrop: 242.5,
+                    dropRate: 8.2
+                },
+                {
+                    area: `Chaldea Gate (Sun)`,
+                    quest: `SUN Saber Training Ground- Exp`,
+                    ap: 40,
+                    apPerDrop: 493.7,
+                    dropRate: 8.1
                 }
             ]
         },
@@ -856,14 +1196,14 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Agartha`,
-                    quest: `Campsite`,
+                    quest: `Camping Ground`,
                     ap: 20,
-                    apPerDrop: 85.9,
-                    dropRate: 23.3
+                    apPerDrop: 91.9,
+                    dropRate: 21.8
                 },
                 {
                     area: `Anastasia`,
-                    quest: `Rebellion Army's Stronghold`,
+                    quest: `Rebel Stronghold`,
                     ap: 21,
                     apPerDrop: 95.3,
                     dropRate: 22.0
@@ -879,23 +1219,30 @@ export const DROPS: Item[] =
                     area: `Anastasia`,
                     quest: `Yaga Demensk`,
                     ap: 21,
-                    apPerDrop: 103.6,
-                    dropRate: 20.3
+                    apPerDrop: 105.2,
+                    dropRate: 20.0
                 },
                 {
                     area: `Camelot`,
-                    quest: `Eastern Village`,
+                    quest: `East Village`,
                     ap: 19,
-                    apPerDrop: 110.5,
-                    dropRate: 17.2
+                    apPerDrop: 111.6,
+                    dropRate: 17.0
                 },
                 {
-                    area: `America`,
-                    quest: `Learney`,
+                    area: `E Pluribus Unum`,
+                    quest: `Kearney`,
                     ap: 18,
-                    apPerDrop: 141.9,
-                    dropRate: 12.7
-                }
+                    apPerDrop: 143.6,
+                    dropRate: 12.5
+                },
+                {
+                    area: `Chaldea Gate (Tue)`,
+                    quest: `TUE Lancer Training Ground- Exp`,
+                    ap: 40,
+                    apPerDrop: 309.9,
+                    dropRate: 12.9
+                },
             ]
         },
         {
@@ -909,16 +1256,23 @@ export const DROPS: Item[] =
                     area: `Shinjuku`,
                     quest: `Shinjuku 2-chome`,
                     ap: 21,
-                    apPerDrop: 113.7,
-                    dropRate: 18.5
+                    apPerDrop: 115.4,
+                    dropRate: 18.2
                 },
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Alexandria`,
                     ap: 18,
-                    apPerDrop: 176.0,
-                    dropRate: 10.2
-                }
+                    apPerDrop: 148.6,
+                    dropRate: 12.1
+                },
+                {
+                    area: `Chaldea Gate (Mon)`,
+                    quest: `MON Archer Training Ground- Exp`,
+                    ap: 40,
+                    apPerDrop: 314.6,
+                    dropRate: 12.7
+                },
             ]
         },
         {
@@ -930,24 +1284,31 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Agartha`,
-                    quest: `Northern Palisade`,
+                    quest: `Northern Cliffs`,
                     ap: 21,
-                    apPerDrop: 103.2,
-                    dropRate: 20.3
+                    apPerDrop: 102.0,
+                    dropRate: 20.6
                 },
                 {
                     area: `Babylonia`,
                     quest: `Northern Hill`,
                     ap: 20,
-                    apPerDrop: 110.9,
-                    dropRate: 18.0
+                    apPerDrop: 114.6,
+                    dropRate: 17.4
                 },
                 {
-                    area: `America`,
+                    area: `E Pluribus Unum`,
                     quest: `Lubbock`,
                     ap: 18,
-                    apPerDrop: 146.7,
+                    apPerDrop: 146.3,
                     dropRate: 12.3
+                },
+                {
+                    area: `Chaldea Gate (Sat)`,
+                    quest: `SAT Assassin Training Ground- Exp`,
+                    ap: 40,
+                    apPerDrop: 333.0,
+                    dropRate: 12.0
                 },
             ]
         },
@@ -962,22 +1323,22 @@ export const DROPS: Item[] =
                     area: `Salem`,
                     quest: `Jail`,
                     ap: 21,
-                    apPerDrop: 108.7,
-                    dropRate: 19.3
+                    apPerDrop: 104.5,
+                    dropRate: 20.1
                 },
                 {
                     area: `Camelot`,
-                    quest: `Concealed Village`,
+                    quest: `Hidden Village`,
                     ap: 21,
-                    apPerDrop: 120.0,
-                    dropRate: 17.5
+                    apPerDrop: 130.3,
+                    dropRate: 16.1
                 },
                 {
                     area: `Camelot`,
-                    quest: `Dunes of Daybreak`,
+                    quest: `Dune of Dawn`,
                     ap: 21,
-                    apPerDrop: 165.1,
-                    dropRate: 11.5
+                    apPerDrop: 174.3,
+                    dropRate: 10.9
                 }
             ]
         },
@@ -992,15 +1353,15 @@ export const DROPS: Item[] =
                     area: `Camelot`,
                     quest: `Great Temple`,
                     ap: 22,
-                    apPerDrop: 210.4,
-                    dropRate: 10.5
+                    apPerDrop: 182.1,
+                    dropRate: 12.1
                 },
                 {
                     area: `Camelot`,
-                    quest: `Desert Sandstorm`,
+                    quest: `Sandstorm Desert`,
                     ap: 19,
-                    apPerDrop: 236.2,
-                    dropRate: 8.0
+                    apPerDrop: 234.6,
+                    dropRate: 8.1
                 }
             ]
         },
@@ -1013,17 +1374,38 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Babylonia`,
-                    quest: `Blood Fort Andromeda`,
+                    quest: `Blood Fort`,
                     ap: 21,
-                    apPerDrop: 108.8,
-                    dropRate: 19.3
+                    apPerDrop: 115.7,
+                    dropRate: 18.2
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `67th Settlement`,
+                    ap: 21,
+                    apPerDrop: 116.7,
+                    dropRate: 18.0
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Pathway Towards The Peak`,
+                    ap: 21,
+                    apPerDrop: 116.9,
+                    dropRate: 18.0
                 },
                 {
                     area: `Babylonia`,
-                    quest: `Northern Wall`,
-                    ap: 21,
-                    apPerDrop: 169.2,
-                    dropRate: 12.4
+                    quest: `Black Cedar Forest`,
+                    ap: 20,
+                    apPerDrop: 149.5,
+                    dropRate: 13.4
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Landing Point`,
+                    ap: 20,
+                    apPerDrop: 165.4,
+                    dropRate: 12.1
                 }
             ]
         },
@@ -1036,17 +1418,17 @@ export const DROPS: Item[] =
             drops: [
                 {
                     area: `Shimosa`,
-                    quest: `Arakawa Prairie`,
+                    quest: `Arakawa Field`,
                     ap: 21,
-                    apPerDrop: 162.5,
-                    dropRate: 12.9
+                    apPerDrop: 171.5,
+                    dropRate: 12.2
                 },
                 {
                     area: `Babylonia`,
-                    quest: `Mount Ahvaz`,
+                    quest: `Mt. Ebih`,
                     ap: 21,
-                    apPerDrop: 171.7,
-                    dropRate: 12.2
+                    apPerDrop: 178.3,
+                    dropRate: 11.8
                 }
             ]
         },
@@ -1061,15 +1443,22 @@ export const DROPS: Item[] =
                     area: `Agartha`,
                     quest: `Palace of Dragon King`,
                     ap: 21,
-                    apPerDrop: 160.8,
-                    dropRate: 13.1
+                    apPerDrop: 172.7,
+                    dropRate: 12.2
+                },
+                {
+                    area: `Anastasia`,
+                    quest: `Strath Stronghold`,
+                    ap: 21,
+                    apPerDrop: 207.1,
+                    dropRate: 10.1
                 },
                 {
                     area: `Shimosa`,
-                    quest: `Tokejou`,
+                    quest: `Toke Castle`,
                     ap: 21,
-                    apPerDrop: 229.9,
-                    dropRate: 9.1
+                    apPerDrop: 222.0,
+                    dropRate: 9.5
                 }
             ]
         }
