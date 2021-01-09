@@ -14,7 +14,7 @@ export class DropComponent implements OnInit {
   public faThumbtack = faThumbtack;
   public DROPS: Item[] = DROPS;
   public pinnedItemIds: number[] = [];
-  public areaFilters: string[] = ['Götterdämmerung'];
+  public areaFilters: string[] = ['SIN'];
 
   constructor(private storage: LocalStorageService, private action: ActionService) { }
 

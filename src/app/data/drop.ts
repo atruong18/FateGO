@@ -683,11 +683,25 @@ export const DROPS: Item[] =
                     dropRate: 40.8
                 },
                 {
+                    area: `SIN`,
+                    quest: `Seeding Point`,
+                    ap: 20,
+                    apPerDrop: 66.5,
+                    dropRate: 30.1,
+                },
+                {
                     area: `Shinjuku`,
                     quest: `Kabukicho`,
                     ap: 21,
                     apPerDrop: 67.1,
                     dropRate: 31.3
+                },
+                {
+                    area: `SIN`,
+                    quest: `Shiquan Canyon`,
+                    ap: 21,
+                    apPerDrop: 69.7,
+                    dropRate: 30.1,
                 },
                 {
                     area: `London`,
@@ -972,6 +986,13 @@ export const DROPS: Item[] =
                     dropRate: 40.8
                 },
                 {
+                    area: `SIN`,
+                    quest: `Neighboring Village`,
+                    ap: 20,
+                    apPerDrop: 77.8,
+                    dropRate: 25.7,
+                },
+                {
                     area: `Götterdämmerung`,
                     quest: `Knoll of Thin Ice`,
                     ap: 20,
@@ -1022,6 +1043,43 @@ export const DROPS: Item[] =
                     apPerDrop: 85.1,
                     dropRate: 24.7
                 }
+            ]
+        },
+        {
+            id: 215,
+            grade: Grade.SILVER,
+            name: `Ancient Bell of Tranquility`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/f/f4/AncientBellOfTranquilityIcon.png`,
+            servantsURL: `assets/drop-servants/drop-svr-bell.PNG`,
+            drops: [
+                {
+                    area: `SIN`,
+                    quest: `Ba Men Cave`,
+                    ap: 21,
+                    apPerDrop: 53.4,
+                    dropRate: 39.3
+                },
+                {
+                    area: `SIN`,
+                    quest: `Daping Yu`,
+                    ap: 21,
+                    apPerDrop: 82.8,
+                    dropRate: 25.4
+                },
+                {
+                    area: `SIN`,
+                    quest: `Prison Camp`,
+                    ap: 21,
+                    apPerDrop: 83.1,
+                    dropRate: 25.3
+                },
+                {
+                    area: `SIN`,
+                    quest: `Xianyang`,
+                    ap: 21,
+                    apPerDrop: 105.5,
+                    dropRate: 19.9,
+                },
             ]
         },
         // Gold
@@ -1447,6 +1505,13 @@ export const DROPS: Item[] =
                     dropRate: 12.2
                 },
                 {
+                    area: `SIN`,
+                    quest: `Icy Cave`,
+                    ap: 20,
+                    apPerDrop: 197.1,
+                    dropRate: 10.1,
+                },
+                {
                     area: `Anastasia`,
                     quest: `Strath Stronghold`,
                     ap: 21,
@@ -1460,6 +1525,29 @@ export const DROPS: Item[] =
                     apPerDrop: 222.0,
                     dropRate: 9.5
                 }
+            ]
+        },
+        {
+            id: 312,
+            grade: Grade.GOLD,
+            name: `Dawnlight Reactor Core`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/a/a0/DawnlightReactorCoreIcon.png`,
+            servantsURL: `assets/drop-servants/drop-gld-core.PNG`,
+            drops: [
+                {
+                    area: `SIN`,
+                    quest: `Prison Camp`,
+                    ap: 21,
+                    apPerDrop: 103.7,
+                    dropRate: 20.2,
+                },
+                {
+                    area: `SIN`,
+                    quest: `Shiquan Canyon`,
+                    ap: 21,
+                    apPerDrop: 105.0,
+                    dropRate: 20.0
+                },
             ]
         }
     ];
