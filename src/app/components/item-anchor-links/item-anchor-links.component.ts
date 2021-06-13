@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Item } from 'src/app/models/drop';
+import { Grade, Item } from 'src/app/models/drop';
+import { ItemGradeFilterOptions } from 'src/app/pipes/ItemGradeFilterPipe';
 
 @Component({
   selector: 'app-item-anchor-links',
@@ -10,6 +11,10 @@ export class ItemAnchorLinksComponent implements OnInit {
 
   @Input() items: Item[] = [];
   @Input() idPrefix = 'item-';
+
+  goldGradeFilter: ItemGradeFilterOptions = { grade: Grade.GOLD };
+  silverGradeFilter: ItemGradeFilterOptions = { grade: Grade.SILVER };
+  bronzeGradeFilter: ItemGradeFilterOptions = { grade: Grade.BRONZE };
 
   constructor() { }
 

@@ -1,7 +1,19 @@
 <section class="fixed-bottom d-none d-md-block">
-    <div class="text-center">
-        <a *ngFor="let i of items" [fragment]="idPrefix + i.id" [routerLink]="" class="p-0">
-            <img [alt]="i.name" [src]="i.imgURL"/>
-        </a>
+    <div class="d-flex justify-content-center align-items-end">
+        <div class="grade-container">
+            <a *ngFor="let i of items | itemGradeFilter: bronzeGradeFilter" [fragment]="idPrefix + i.id" [routerLink]="" class="p-0">
+                <img [alt]="i.name" [src]="i.imgURL"/>
+            </a>
+        </div>
+        <div class="grade-container">
+            <a *ngFor="let i of items | itemGradeFilter: silverGradeFilter" [fragment]="idPrefix + i.id" [routerLink]="" class="p-0">
+                <img [alt]="i.name" [src]="i.imgURL"/>
+            </a>
+        </div>
+        <div class="grade-container">
+            <a *ngFor="let i of items | itemGradeFilter: goldGradeFilter" [fragment]="idPrefix + i.id" [routerLink]="" class="p-0">
+                <img [alt]="i.name" [src]="i.imgURL"/>
+            </a>
+        </div>
     </div>
 </section>
