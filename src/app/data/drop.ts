@@ -1082,6 +1082,43 @@ export const DROPS: Item[] =
                 },
             ]
         },
+        {
+            id: 216,
+            grade: Grade.SILVER,
+            name: `Arrowhead of Maledictions`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/a/a9/Arrowhead_of_Maledictions.png`,
+            servantsURL: `assets/drop-servants/drop-svr-arrowhead.PNG`,
+            drops: [
+                {
+                    area: `Yugakshetra`,
+                    quest: `God's Skyboulder Ruins`,
+                    ap: 21,
+                    apPerDrop: 51.6,
+                    dropRate: 40.7
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Initiate Point`,
+                    ap: 20,
+                    apPerDrop: 73.7,
+                    dropRate: 27.2
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Western Fault Line`,
+                    ap: 21,
+                    apPerDrop: 81.4,
+                    dropRate: 25.8
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Dival`,
+                    ap: 21,
+                    apPerDrop: 82.8,
+                    dropRate: 25.3,
+                },
+            ]
+        },
         // Gold
         {
             id: 300,
@@ -1258,6 +1295,13 @@ export const DROPS: Item[] =
                     ap: 20,
                     apPerDrop: 91.9,
                     dropRate: 21.8
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Initiate Point`,
+                    ap: 20,
+                    apPerDrop: 95.2,
+                    dropRate: 21.0
                 },
                 {
                     area: `Anastasia`,
@@ -1549,5 +1593,51 @@ export const DROPS: Item[] =
                     dropRate: 20.0
                 },
             ]
-        }
+        },
+        {
+            id: 313,
+            grade: Grade.GOLD,
+            name: `Tsukumo Mirror`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/0/0f/Tsukumo_Mirror.png`,
+            servantsURL: `assets/drop-servants/drop-gld-mirror.PNG`,
+            drops: [
+                {
+                    area: `Shimosa`,
+                    quest: `Rear Mountain (Trembling in Fear)`,
+                    ap: 21,
+                    apPerDrop: 172.3,
+                    dropRate: 12.2,
+                },
+            ]
+        },
+        {
+            id: 314,
+            grade: Grade.GOLD,
+            name: `Genesis Egg`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/5/5c/Genesis_Egg.png`,
+            servantsURL: `assets/drop-servants/drop-gld-egg.PNG`,
+            drops: [
+                {
+                    area: `Yugakshetra`,
+                    quest: `Dival`,
+                    ap: 21,
+                    apPerDrop: 170.5,
+                    dropRate: 12.3,
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Land of Eternity`,
+                    ap: 21,
+                    apPerDrop: 203.4,
+                    dropRate: 10.3,
+                },
+                {
+                    area: `Yugakshetra`,
+                    quest: `Northern Sacred Mountain`,
+                    ap: 21,
+                    apPerDrop: 211.0,
+                    dropRate: 10.0,
+                },
+            ]
+        },
     ];
