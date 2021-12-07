@@ -903,6 +903,13 @@ export const DROPS: Item[] =
                     dropRate: 25.2
                 },
                 {
+                    area: `Atlantis`,
+                    quest: `Sailing Point`,
+                    ap: 21,
+                    apPerDrop: 82.4,
+                    dropRate: 25.5
+                },
+                {
                     area: `Chaldea Gate (Sun)`,
                     quest: `SUN Saber Training Ground- Exp`,
                     ap: 40,
@@ -1119,6 +1126,50 @@ export const DROPS: Item[] =
                 },
             ]
         },
+        {
+            id: 217,
+            grade: Grade.SILVER,
+            name: `Crown of Silvery Light`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/b/ba/Crown_of_Radiant_Silver.png`,
+            servantsURL: `assets/drop-servants/drop-svr-crown.PNG`,
+            drops: [
+                {
+                    area: `Atlantis`,
+                    quest: `Thanatos Island`,
+                    ap: 21,
+                    apPerDrop: 55.0,
+                    dropRate: 38.2
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Deimos Island`,
+                    ap: 21,
+                    apPerDrop: 78.4,
+                    dropRate: 26.8
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Nemesis Island`,
+                    ap: 21,
+                    apPerDrop: 82.8,
+                    dropRate: 25.4
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Hecate Island`,
+                    ap: 21,
+                    apPerDrop: 83.8,
+                    dropRate: 25.1,
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Hestia Island`,
+                    ap: 21,
+                    apPerDrop: 83.8,
+                    dropRate: 25.0,
+                },
+            ]
+        },
         // Gold
         {
             id: 300,
@@ -1147,6 +1198,13 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 101.6,
                     dropRate: 20.7
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Hecate Island`,
+                    ap: 21,
+                    apPerDrop: 103.6,
+                    dropRate: 20.3
                 },
                 {
                     area: `Shinjuku`,
@@ -1265,6 +1323,20 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 178.9,
                     dropRate: 11.7
+                },
+                {
+                    area: `Götterdämmerung`,
+                    quest: `Forgotten Shrine`,
+                    ap: 21,
+                    apPerDrop: 184.3,
+                    dropRate: 11.4
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Astraea Island`,
+                    ap: 21,
+                    apPerDrop: 210.0,
+                    dropRate: 10.0
                 },
                 {
                     area: `E Pluribus Unum`,
@@ -1549,6 +1621,13 @@ export const DROPS: Item[] =
                     dropRate: 12.2
                 },
                 {
+                    area: `Atlantis`,
+                    quest: `Hestia Island`,
+                    ap: 21,
+                    apPerDrop: 117.1,
+                    dropRate: 11.9
+                },
+                {
                     area: `SIN`,
                     quest: `Icy Cave`,
                     ap: 20,
@@ -1591,6 +1670,13 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 105.0,
                     dropRate: 20.0
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Thetis Island`,
+                    ap: 21,
+                    apPerDrop: 115.3,
+                    dropRate: 18.2
                 },
             ]
         },
@@ -1637,6 +1723,29 @@ export const DROPS: Item[] =
                     ap: 21,
                     apPerDrop: 211.0,
                     dropRate: 10.0,
+                },
+            ]
+        },
+        {
+            id: 315,
+            grade: Grade.GOLD,
+            name: `Fragment of a Twinkling Star`,
+            imgURL: `https://static.wikia.nocookie.net/fategrandorder/images/4/4d/Comet_Shard.png`,
+            servantsURL: `assets/drop-servants/drop-gld-star.PNG`,
+            drops: [
+                {
+                    area: `Atlantis`,
+                    quest: `Nemesis Island`,
+                    ap: 21,
+                    apPerDrop: 174.8,
+                    dropRate: 12.0,
+                },
+                {
+                    area: `Atlantis`,
+                    quest: `Sailing Point`,
+                    ap: 21,
+                    apPerDrop: 177.9,
+                    dropRate: 11.8,
                 },
             ]
         },
