@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FateGO/static/css/main.2735e5a2.css",
-    "main.js": "/FateGO/static/js/main.9171029e.js",
-    "static/js/787.b701888c.chunk.js": "/FateGO/static/js/787.b701888c.chunk.js",
-    "index.html": "/FateGO/index.html",
-    "main.2735e5a2.css.map": "/FateGO/static/css/main.2735e5a2.css.map",
-    "main.9171029e.js.map": "/FateGO/static/js/main.9171029e.js.map",
-    "787.b701888c.chunk.js.map": "/FateGO/static/js/787.b701888c.chunk.js.map"
+    "main.css": "/static/css/main.2735e5a2.css",
+    "main.js": "/static/js/main.76d22504.js",
+    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
+    "index.html": "/index.html",
+    "main.2735e5a2.css.map": "/static/css/main.2735e5a2.css.map",
+    "main.76d22504.js.map": "/static/js/main.76d22504.js.map",
+    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2735e5a2.css",
-    "static/js/main.9171029e.js"
+    "static/js/main.76d22504.js"
   ]
 }
